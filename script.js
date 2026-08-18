@@ -1,8 +1,9 @@
 function firstChar(text) {
-  if (text.trim() === "") return "''";
-  return text.trim()[0];
-}
+  // your code here
+	if(text.trim() == '') return "' '"
+	return text.trim()[0];
 
+}
 
 // Do not change the code below
 //Uncomment the following line to show the prompt popup
